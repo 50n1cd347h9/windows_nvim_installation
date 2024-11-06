@@ -1,0 +1,5 @@
+place this directory into ~/AppData/Local/
+
+download links
+https://github.com/neovim/neovim/releases/latest/download/nvim-win64.msi
+https://github.com/denoland/deno/releases/download/v2.0.5/deno-x86_64-pc-windows-msvc.zip
