@@ -1,4 +1,4 @@
-place this directory into ~/AppData/Local/
+place contents of this directory into ~/AppData/Local/nvim
 
 download links
 https://github.com/neovim/neovim/releases/latest/download/nvim-win64.msi
