@@ -1,9 +1,9 @@
-[submodule "plugins/nvim-treesitter"]
-	path = plugins/nvim-treesitter
-	url = https://github.com/nvim-treesitter/nvim-treesitter
 [submodule "plugins/kanagawa.nvim"]
 	path = plugins/kanagawa.nvim
 	url = https://github.com/rebelot/kanagawa.nvim
 [submodule "plugins/vim-fern"]
 	path = plugins/vim-fern
 	url = https://github.com/lambdalisue/vim-fern
+[submodule "plugins/nvim-treesitter"]
+	path = plugins/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter
