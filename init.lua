@@ -1,8 +1,6 @@
--- vim.api.nvim_command('source ~/AppData/Local/nvim/fudebako.vim/manager.vim')
-
-vim.opt.runtimepath:append("~/AppData/Local/nvim/plugins/nvim-treesitter.git")
-vim.opt.runtimepath:append("~/AppData/Local/nvim/plugins/kanagawa.nvim.git")
-vim.opt.runtimepath:append("~/AppData/Local/nvim/plugins/fern.vim.git")
+vim.opt.runtimepath:append("~/AppData/Local/nvim/plugins/nvim-treesitter")
+vim.opt.runtimepath:append("~/AppData/Local/nvim/plugins/kanagawa.nvim")
+vim.opt.runtimepath:append("~/AppData/Local/nvim/plugins/vim-fern")
 
 vim.keymap.set('i', 'jj', '<Esc>')
 vim.keymap.set('c', 'jj', '<Esc>')
@@ -27,12 +25,9 @@ vim.opt.autoindent = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.cmd('colorscheme kanagawa')
--- vim.api.nvim_create_augroup('vimrc', { clear = true })
-
-
 
 require'nvim-treesitter.configs'.setup {
-	ensure_installed = {"verilog", "c_sharp", "glsl", "c", "vue", "python", "typescript", "vim", "yaml", "rust", "lua", "commonlisp", "zig"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+	ensure_installed = {"go", "c_sharp", "c", "cpp", "python", "vim", "yaml", "rust", "lua", "zig"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
 	sync_install = true,
 	highlight = {
 		enable = true,              -- false will disable the whole extension
